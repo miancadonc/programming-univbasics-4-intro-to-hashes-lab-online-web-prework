@@ -10,7 +10,7 @@ end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
-  pioneer = Hash.new()
+  pioneer = Hash.new(name: 'Grace Hopper')
 end
 
 def id_generator
